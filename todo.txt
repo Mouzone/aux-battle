@@ -1,0 +1,2 @@
+1) Write media player that takes links and plays the appropriate song from the appropriate site
+--> Spotify, soudncloud, YouTube/YouTube music

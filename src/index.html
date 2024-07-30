@@ -4,11 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Page</title>
-        <link rel="stylesheet" href="./style.css">
     <!--    <link rel="icon" href="./favicon.ico" type="image/x-icon">-->
     </head>
     <body>
-
-        <script src="./script.js"></script>
+        <form>
+            <label for="song_link"> Song Link: </label>
+            <input type="text" id="song_link">
+            <button type="submit"> Submit </button>
+        </form>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1FgmP7AOTcn7MGYmImj0kn?utm_source=generator" width="100%" height="352" loading="lazy" id="spotify-player"></iframe>
     </body>
 </html>
